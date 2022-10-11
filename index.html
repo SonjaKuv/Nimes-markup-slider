@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nîmes</title>
+    <link href="vendor/normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script defer src="https://kit.fontawesome.com/c44033c7c1.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</head>
+
+<body class="root">
+    <div class="page">
+        <div class="wrapper">
+            <header class="header">
+                <nav>
+                    <ul class="list header__list">
+                        <li><a href="#" class="page-text opacity header__list-element link">Woman</a></li>
+                        <li><a href="#" class="page-text opacity header__list-element link">Man</a></li>
+                        <li><a href="#" class="page-text opacity header__list-element link">New</a></li>
+                    </ul>
+                </nav>
+                <h1 class="title header__title">Nîmes</h1>
+                <div class="header__icons">
+                    <div class="opacity header__search"><a href="#"></a></div>
+                    <div class="opacity header__basket"><a href="#"></a></div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="photos">
+                  <div class="photos__arrow photos__arrow_type_left photos__arrow_disabled"><i class="opacity fa-solid fa-chevron-left"></i></div>
+                    <div class="photos-container">
+                        <img class="photos__item photos__item_type_big" src="assets/product-image-1.png"
+                            alt="product-image-1" data-order="0" style="order: 0">
+                        <img class="photos__item" src="assets/product-image-2.png" alt="product-image-2" data-order="1"
+                            style="order: 1">
+                        <img class="photos__item" src="assets/product-image-3.png" alt="product-image-3" data-order="2"
+                            style="order: 2">
+                        <img class="photos__item" src="assets/product-image-4.png" alt="product-image-4" data-order="3"
+                            style="order: 3">
+                        <img class="photos__item" src="assets/product-image-5.png" alt="product-image-5" data-order="4"
+                            style="order: 4">
+                    </div>
+                    <div class="photos__arrow photos__arrow_type_right"><i class="opacity fa-solid fa-chevron-right"></i></div>
+                </div>
+                <div class="about">
+                    <h2 class="page-title about__title">Overalls</h2>
+                    <p class="page-text about__subtitle">Overalls in washed organic cotton denim. Collar, button fly,
+                        and
+                        adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs
+                        with front pockets and back pockets.</p>
+                    <h4 class="page-subtitle about__color">Color</h4>
+                    <ul class="about__color-list">
+                        <li class="about__color-item">
+                            <input id="blue" type="radio" name="color" value="blue" checked>
+                            <label for="blue" class="about__color-label about__color-label_type_blue"></label>
+                        </li>
+                        <li class="about__color-item">
+                            <input id="navy" type="radio" name="color" value="navy">
+                            <label for="navy" class="about__color-label about__color-label_type_navy"></label>
+                        </li>
+                        <li class="about__color-item">
+                            <input id="grey" type="radio" name="color" value="gray">
+                            <label for="grey" class="about__color-label about__color-label_type_grey"></label>
+
+                        </li>
+                    </ul>
+                    <h4 class="page-subtitle about__size">Size</h4>
+                    <ul class="about__size-list">
+                        <li class="about__size-item">
+                            <input id="xs" value="xs" type="radio" name="size">
+                            <label class="page-subtitle about__size-text" for="xs">XS</label>
+                        </li>
+                        <li class="about__size-item">
+                            <input id="s" value="s" type="radio" name="size" checked>
+                            <label class="page-subtitle about__size-text" for="s">S</label>
+                        </li>
+                        <li class="about__size-item">
+                            <input id="m" value="m" type="radio" name="size">
+                            <label class="page-subtitle about__size-text" for="m">M</label>
+                        </li>
+                        <li class="about__size-item">
+                            <input id="l" value="l" type="radio" name="size">
+                            <label class="page-subtitle about__size-text" for="l">L</label>
+                        </li>
+                        <li class="about__size-item">
+                            <input id="xl" value="xl" type="radio" name="size">
+                            <label class="page-subtitle about__size-text" for="xl">XL</label>
+                        </li>
+                    </ul>
+                    <div class="page-subtitle about__price">$ 160</div>
+                    <button class="page-text opacity about__add-button" type="submit">Add to cart</button>
+                </div>
+            </main>
+            <section class="similar-items-section">
+                <div class="similar-items-header">
+                    <h2 class="page-title similar-items__title">You may also like</h2>
+                    <a class="page-subtitle opacity similar-items__view-all">View all</a>
+                </div>
+                <div class="similar-items">
+                    <div class="similar-item opacity"><a href="#" class="link">
+                            <img class="similar-item__photo" src="assets/similar-image-1.png" alt="similar-image-1">
+                            <h4 class="page-subtitle similar-item__subtitle">Overalls</h4>
+                            <div class="page-text similar-item__price">$ 140</div>
+                        </a></div>
+                    <div class="similar-item opacity"><a href="#" class="link">
+                            <img class="similar-item__photo" src="assets/similar-image-2.png" alt="similar-image-2">
+                            <h4 class="page-subtitle similar-item__subtitle">Overalls</h4>
+                            <div class="page-text similar-item__price">$ 110</div>
+                        </a></div>
+                    <div class="similar-item opacity"><a href="#" class="link">
+                            <img class="similar-item__photo" src="assets/similar-image-3.png" alt="similar-image-3">
+                            <h4 class="page-subtitle similar-item__subtitle">Jacket</h4>
+                            <div class="page-text similar-item__price">$ 70</div>
+                        </a></div>
+                    <div class="similar-item opacity"><a href="#" class="link">
+                            <img class="similar-item__photo" src="assets/similar-image-4.png" alt="similar-image-4">
+                            <h4 class="page-subtitle similar-item__subtitle">Jacket</h4>
+                            <div class="page-text similar-item__price">$ 60</div>
+                        </a></div>
+                </div>
+            </section>
+            <footer class="footer">
+                <h3 class="title footer__title">Nîmes</h2>
+                    <nav>
+                        <ul class="list footer__list">
+                            <li><a href="#" class="page-subtitle footer__list-item opacity link">Shop</a></li>
+                            <li><a href="#" class="page-subtitle footer__list-item opacity link">Delivery</a></li>
+                            <li><a href="#" class="page-subtitle footer__list-item opacity link">Service</a></li>
+                            <li><a href="#" class="page-subtitle footer__list-item opacity link">Sitemap</a></li>
+                            <li><a href="#" class="page-subtitle footer__list-item opacity link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer__social-links">
+                        <li class="footer__social-link"><a href="#" class="opacity">
+                                <img src="assets/fb.svg" alt="fb" class="footer__social-icon" /></a></li>
+                        <li class="footer__social-link"><a href="#" class="opacity">
+                                <img src="assets/insta.svg" alt="insta" class="footer__social-icon" /></a></li>
+                        <li class="footer__social-link"><a href="#" class="opacity">
+                                <img src="assets/pinterest.svg" alt="pinterest" class="footer__social-icon" /></a></li>
+                        <li class="footer__social-link"><a href="#" class="opacity">
+                                <img src="assets/twitter.svg" alt="twitter" class="footer__social-icon" /></a></li>
+                    </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
