@@ -1,4 +1,4 @@
-### Вёрстка страницы по макету и создание слайдера в рамках стажировки.
+### Вёрстка страницы по макету и создание слайдера.
 [GH Pages](https://sonjakuv.github.io/Intership-markup2-slider-/)
 * Макет в Figma:
 https://www.figma.com/file/rjPyPTKJsUkpgY4HxxBtIr/denim?node-id=0%3A1
